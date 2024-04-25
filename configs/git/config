@@ -1,12 +1,6 @@
 [user]
-	email = mahartma@mahartma.com
+	email = matthias.hartmann@mischok.academy
 	name = Matthias Hartmann
-	signingkey = 0xCAFF6D0A8FFA707D
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
 [push]
 	default = simple
 [color]

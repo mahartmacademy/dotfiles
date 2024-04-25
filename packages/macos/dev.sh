@@ -4,7 +4,7 @@
 PACKAGES=("${PACKAGES[@]}" "go" "golangci-lint")
 
 # js
-PACKAGES=("${PACKAGES[@]}" "node" "yarn")
+PACKAGES=("${PACKAGES[@]}" "nvm" "yarn")
 
 # java
 PACKAGES=("${PACKAGES[@]}" "openjdk@17")

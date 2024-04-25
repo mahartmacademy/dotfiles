@@ -7,11 +7,10 @@ PACKAGES=("${PACKAGES[@]}" "rectangle")
 CASK=("${CASK[@]}" "iterm2")
 
 # password managers
-PACKAGES=("${PACKAGES[@]}" "gopass")
-CASK=("${CASK[@]}" "1password" "keepassxc")
+CASK=("${CASK[@]}" "keepassxc")
 
 # vpn
-CASK=("${CASK[@]}" "mullvadvpn" "tunnelblick")
+CASK=("${CASK[@]}" "mullvadvpn")
 
 # browsers
 CASK=("${CASK[@]}" "firefox" "google-chrome")
@@ -26,7 +25,7 @@ CASK=("${CASK[@]}" "nextcloud")
 CASK=("${CASK[@]}" "cyberduck")
 
 # communication
-CASK=("${CASK[@]}" "discord" "signal" "mumble" "zoom" "microsoft-teams")
+CASK=("${CASK[@]}" "zoom" "microsoft-teams")
 
 # streaming
 CASK=("${CASK[@]}" "obs" "spotify")
